@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naeem Khan | Software Developer</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self' mailto:;">
+<link rel="stylesheet" href="style.css">
+<link rel="preload" as="image" href="naeem.jpg">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">Naeem Khan.</div>
+        <div class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links" role="button" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="skills.html">Skills</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+
+<main>
+    <section class="hero hero-home">
+        <div class="hero-background" aria-hidden="true">
+            <span class="bg-orb orb-one"></span>
+            <span class="bg-orb orb-two"></span>
+            <span class="bg-orb orb-three"></span>
+            <span class="bg-grid"></span>
+            <span class="bg-line line-one"></span>
+            <span class="bg-line line-two"></span>
+            <span class="bg-line line-three"></span>
+        </div>
+
+        <div class="hero-copy fade-in delay-1">
+            <p class="eyebrow">Frontend Developer / Portfolio</p>
+            <h1>Creating clean, modern websites that feel professional from the first impression.</h1>
+            <p class="hero-lead">
+                I'm Naeem Khan, a frontend-focused developer building responsive websites, polished
+                portfolio pages, and structured user interfaces that present work with clarity and confidence.
+            </p>
+
+            <div class="tech-icons" aria-label="Core tools and technologies">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">VS Code</span>
+            </div>
+
+            <div class="hero-actions fade-in delay-2">
+                <a href="projects.html" class="btn primary">View Projects</a>
+                <a href="contact.html" class="btn secondary">Contact Me</a>
+            </div>
+
+            <div class="hero-trust-row">
+                <div class="trust-item">
+                    <span>Specialty</span>
+                    <strong>Responsive frontend websites</strong>
+                </div>
+                <div class="trust-item">
+                    <span>Style</span>
+                    <strong>Clean, modern, and credible UI</strong>
+                </div>
+            </div>
+
+            <div class="hero-metrics">
+                <div class="metric-card">
+                    <strong>3+</strong>
+                    <span>Portfolio Projects</span>
+                </div>
+                <div class="metric-card">
+                    <strong>1+ Year</strong>
+                    <span>Practice Experience</span>
+                </div>
+                <div class="metric-card">
+                    <strong>Frontend</strong>
+                    <span>HTML, CSS, JavaScript</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual fade-in delay-3">
+            <div class="profile-panel">
+                <div class="profile-image-wrap">
+                    <div class="circle"></div>
+                    <img src="naeem.jpg" alt="Portrait of Naeem Khan" width="465" height="577" decoding="async" fetchpriority="high">
+                </div>
+
+                <div class="profile-summary">
+                    <p class="profile-role">Available for junior web roles</p>
+                    <h2>Naeem Khan</h2>
+                    <p>
+                        Computer Science student with an interest in professional portfolio sites,
+                        landing pages, and responsive frontend development.
+                    </p>
+                    <a href="about.html" class="text-link">Learn more about me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-strip fade-in-on-scroll">
+        <div class="strip-card fade-in-on-scroll" style="--reveal-delay: 80ms;">
+            <h3>Professional Presentation</h3>
+            <p>Layouts designed to feel clean, trustworthy, and easy to navigate.</p>
+        </div>
+        <div class="strip-card fade-in-on-scroll" style="--reveal-delay: 180ms;">
+            <h3>Responsive Design</h3>
+            <p>Interfaces built to work smoothly across desktop, tablet, and mobile screens.</p>
+        </div>
+        <div class="strip-card fade-in-on-scroll" style="--reveal-delay: 280ms;">
+            <h3>Project Focus</h3>
+            <p>Real practice projects that demonstrate UI structure, styling, and consistency.</p>
+        </div>
+    </section>
+
+    <section class="home-feature-grid fade-in-on-scroll">
+        <article class="home-feature-card feature-intro fade-in-on-scroll" style="--reveal-delay: 80ms;">
+            <p class="intro">What I Deliver</p>
+            <h2>Web pages that balance visual appeal, clarity, and usability.</h2>
+            <p>
+                My work focuses on creating pages that are easy to understand, attractive to look at,
+                and professional enough to support a personal brand or business presence.
+            </p>
+        </article>
+
+        <article class="home-feature-card fade-in-on-scroll" style="--reveal-delay: 180ms;">
+            <strong>Landing Pages</strong>
+            <p>Structured layouts that guide visitors clearly from introduction to action.</p>
+        </article>
+
+        <article class="home-feature-card fade-in-on-scroll" style="--reveal-delay: 280ms;">
+            <strong>Portfolio Websites</strong>
+            <p>Personal portfolio pages designed to showcase projects in a clean and credible way.</p>
+        </article>
+
+        <article class="home-feature-card fade-in-on-scroll" style="--reveal-delay: 380ms;">
+            <strong>Responsive Interfaces</strong>
+            <p>Designs that stay usable and polished across desktop, tablet, and mobile screens.</p>
+        </article>
+    </section>
+
+    <section class="home-cta-panel fade-in-on-scroll">
+        <div class="home-cta-copy">
+            <p class="eyebrow">Ready to Connect</p>
+            <h2>Looking for a clean and professional website style?</h2>
+            <p>
+                Explore my recent work or contact me to discuss a project, role, or collaboration opportunity.
+            </p>
+        </div>
+        <div class="home-cta-actions">
+            <a href="projects.html" class="btn primary">See My Work</a>
+            <a href="contact.html" class="btn secondary">Start a Conversation</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Naeem Khan</p>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/naeem-khan-666952367?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4.98 3.5A2.49 2.49 0 1 0 5 8.48a2.49 2.49 0 0 0-.02-4.98ZM2.75 9.5h4.5v11.75h-4.5Zm7.25 0h4.31v1.6h.06c.6-1.14 2.08-2.35 4.28-2.35 4.58 0 5.43 3.01 5.43 6.92v7.58h-4.5v-6.72c0-1.6-.03-3.66-2.23-3.66-2.24 0-2.58 1.75-2.58 3.55v6.83H10Z"/>
+            </svg>
+            <span>LinkedIn</span>
+        </a>
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=naeemcs931%40gmail.com&amp;su=Portfolio%20Inquiry" target="_blank" rel="noopener noreferrer" aria-label="Email Me">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 5.25h18A1.75 1.75 0 0 1 22.75 7v10A1.75 1.75 0 0 1 21 18.75H3A1.75 1.75 0 0 1 1.25 17V7A1.75 1.75 0 0 1 3 5.25Zm0 1.5a.25.25 0 0 0-.25.25v.19l9.25 5.82 9.25-5.82V7A.25.25 0 0 0 21 6.75Zm18 10.5a.25.25 0 0 0 .25-.25V8.96l-8.85 5.57a.75.75 0 0 1-.8 0L2.75 8.96V17c0 .14.11.25.25.25Z"/>
+            </svg>
+            <span>Email</span>
+        </a>
+    </div>
+</footer>
+
+<script>
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+const navOverlay = document.getElementById('nav-overlay');
+
+if (hamburger && navLinks) {
+    const setNavState = (isOpen) => {
+        navLinks.classList.toggle('active', isOpen);
+        document.body.classList.toggle('nav-open', isOpen);
+        hamburger.setAttribute('aria-expanded', String(isOpen));
+        if (navOverlay) {
+            navOverlay.setAttribute('aria-hidden', String(!isOpen));
+        }
+    };
+
+    const toggleNav = () => {
+        setNavState(!navLinks.classList.contains('active'));
+    };
+
+    const closeNav = () => {
+        setNavState(false);
+    };
+
+    hamburger.addEventListener('click', toggleNav);
+    hamburger.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            toggleNav();
+        }
+    });
+
+    navLinks.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', closeNav);
+    });
+
+    if (navOverlay) {
+        navOverlay.addEventListener('click', closeNav);
+    }
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            closeNav();
+        }
+    });
+}
+
+function initRevealAnimations() {
+    const revealItems = document.querySelectorAll('.fade-in-on-scroll:not(.is-visible)');
+
+    if (revealItems.length === 0) {
+        return;
+    }
+
+    const pendingItems = [];
+    const immediateThreshold = Math.max(window.innerHeight * 0.92, 560);
+
+    revealItems.forEach((item) => {
+        if (item.getBoundingClientRect().top <= immediateThreshold) {
+            item.classList.add('reveal-now', 'is-visible');
+            return;
+        }
+
+        pendingItems.push(item);
+    });
+
+    if (pendingItems.length === 0) {
+        return;
+    }
+
+    if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        pendingItems.forEach((item) => item.classList.add('is-visible'));
+        return;
+    }
+
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+            if (!entry.isIntersecting) {
+                return;
+            }
+
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+        });
+    }, {
+        threshold: 0.12,
+        rootMargin: '0px 0px -10% 0px'
+    });
+
+    pendingItems.forEach((item) => revealObserver.observe(item));
+}
+
+initRevealAnimations();
+</script>
+
+</body>
+</html>
